@@ -1,0 +1,209 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Monoton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Mansalva&family=Monoton&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start-Up Vêtements - Trendify</title>
+    <style>
+        :root {
+            --primary-bg:  #FBFCFA; /* Peach Puff */
+            --secondary-bg: #FF69B4; /* Hot Pink */
+            --accent-color: #8A2BE2; /* Blue Violet */
+            --highlight-color: #FFD700; /* Gold */
+            --text-main: #4B0082; /* Indigo */
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Mansalva', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+        }
+
+        header {
+            background-color: var(--secondary-bg);
+            color: white;
+            padding: 1em;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        header h1 {
+            font-family: 'Kablammo', sans-serif;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            margin: 1em 0;
+        }
+
+        nav a {
+            color: var(--highlight-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        section.hero {
+            text-align: center;
+            padding: 2em;
+            background: linear-gradient(135deg, var(--highlight-color), var(--secondary-bg));
+            color: white;
+        }
+
+        section.hero h2 {
+            font-family: 'Mansalva', cursive;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        section.hero p {
+            margin: 1em 0;
+            font-size: 1.2em;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            gap: 1em;
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        .card {
+            background-color: var(--highlight-color);
+            border: 2px solid var(--text-main);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            margin: 1em 0;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            margin: 0.5em 1em 1em;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: var(--secondary-bg);
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        section#about {
+            padding: 30px;                             /* Internal space */
+            background: white;                         /* White background */
+            color: var(--text-main);
+            text-align: center;
+            border-radius: 10px;                       /* Rounded corners */
+            box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+            max-width: 800px;                          /* Max width */
+            margin: 2em auto;                          /* Centered */
+        }
+
+        section#about h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            font-family: 'Kablammo', sans-serif;
+        }
+
+        section#about p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 2em;
+        }
+
+        .profile-container img {
+            border-radius: 80%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trendify</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#trends">Trends</a>
+            <a href="https://www.linkedin.com/in/axelle-rabreau-182184296/" target="_blank">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="profile-container">
+            <img src="https://i.pinimg.com/474x/6d/80/74/6d807402711af5a3fe3ed08771a0134e.jpg" alt="Profile Picture"> 
+            <h2>About Me</h2>
+        </div>
+        <p>Bonjour, je suis Axelle Rabreau, étudiante en 2ème année de Bachelor en Management à Audencia, avec une passion profonde pour la mode et l'innovation. Ce qui m'anime, c'est la créativité sans limite que l'industrie de la mode offre, mais aussi les défis qui l'accompagnent, notamment en matière de responsabilité sociale et environnementale.</p>
+        <p>Mon objectif ? Aller au-delà des tendances pour les transformer en mouvements porteurs de sens. Je crois fermement que la mode peut être à la fois visionnaire et responsable. Chaque nouvelle collection, chaque innovation technologique, et chaque démarche écoresponsable représente une opportunité de redéfinir l'avenir de cette industrie.</p>
+        <p>Je veux non seulement capter ce qui inspire aujourd'hui, mais aussi anticiper ce qui influencera demain. Que ce soit en explorant des matériaux éthiques, en imaginant des campagnes de communication percutantes, ou en construisant des expériences qui marquent, je suis convaincue que l'impact durable peut rimer avec style.</p>
+        <p>En résumé, je suis prête à allier créativité, stratégie et conscience pour apporter ma contribution à une mode qui inspire et qui change le monde.</p>
+    </section>
+
+    <section id="trends" class="hero">
+        <h2>Exploring the Future of Fashion</h2>
+        <p>Discover insights, innovations, and ideas shaping the clothing industry today.</p>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/6d/86/42/6d86424e23ccc52e10276ef4c1963054.jpg">
+            <h3>Sustainable Materials</h3>
+            <p>Learn how brands are embracing eco-friendly fabrics to reduce environmental impact.</p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/d0/2a/1c/d02a1cbd2af2fea9f00fbb1a57a421d0.jpg" alt="Trend 2">
+            <h3>Tech Meets Fashion</h3>
+            <p>Discover wearable technology that's revolutionizing the way we dress.</p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/73/cd/6e/73cd6e114bc5f61573c09263c1b7d217.jpg" alt="Trend 3">
+            <h3>Streetwear Evolution</h3>
+            <p>Explore the cultural phenomenon that's reshaping modern style.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Trendify.</p>
+    </footer>
+</body>
+</html>
